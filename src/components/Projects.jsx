@@ -6,7 +6,7 @@ const Projects = () => {
     <section id="projects">
       <div className="py-20 relative">
         <h1 className="heading text-white">
-          A small selection of <span className="text-red">recent projects</span>
+          A selection of <span className="text-red">recent projects</span>
         </h1>
         <div className="flex flex-wrap items-center justify-center p-4 gap-x-16 gap-y-0">
           {/* projets  */}
