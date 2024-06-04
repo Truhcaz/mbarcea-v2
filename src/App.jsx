@@ -1,5 +1,7 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import RandomProjects from "./components/RandomProjects";
 import { navItems } from "./components/data";
 import { FloatingNav } from "./components/ui/FloatingNavbar";
 
@@ -11,6 +13,8 @@ function App() {
           <FloatingNav navItems={navItems} />
           <Hero />
           <Projects />
+          <RandomProjects />
+          <Footer />
         </div>
       </main>
     </>

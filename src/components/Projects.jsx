@@ -12,11 +12,11 @@ const Projects = () => {
           {/* projets  */}
           {projects.map((item) => (
             <CardContainer
-              className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+              className="min-h-[32.5rem] flex items-center justify-center sm:w-96 w-[80vw]"
               key={item.id}
             >
               <CardBody className=" relative group/card hover:shadow-2xl hover:shadow-red/[0.1] bg-black-100 border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
-                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] h-[20vh] lg:h-[30vh]">
+                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] h-[30vh]">
                   <CardItem
                     translateZ="50"
                     className="mt-4 w-full h-full lg:rounded-3xl"
@@ -41,7 +41,7 @@ const Projects = () => {
                 <CardItem
                   as="p"
                   translateZ="50"
-                  className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                  className="lg:text-xl lg:font-normal font-light text-l line-clamp-2 min-h-[3rem]"
                   style={{
                     color: "#BEC1DD",
                     margin: "1vh 0",

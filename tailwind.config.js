@@ -27,13 +27,19 @@ export default {
         black: {
           DEFAULT: "#000",
           100: "#0d0d0d;",
-          200: "#282828;",
+          200: "rgba(13, 13, 13, 0.75);",
         },
         red: "#ec684a",
       },
+      borderColor: {
+        black: {
+          300: "rgba(255, 255, 255, 0.125)",
+        }
+      }
     },
   },
   plugins: [
+    addVariablesForColors,
     function ({ matchUtilities, theme }) {
       matchUtilities(
         {
@@ -58,3 +64,15 @@ export default {
     },
   ],
 };
+
+// This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
+function addVariablesForColors({ addBase, theme }) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+
+  addBase({
+    ":root": newVars,
+  });
+}
