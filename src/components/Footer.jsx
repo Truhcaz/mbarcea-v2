@@ -19,8 +19,8 @@ const Footer = () => {
           Contact <span className="text-red">Me</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          I am looking for new opportunities right now, so feel free to send me
-          an email if you have any question !
+          I am looking forward to new opportunities, please send me an email if
+          you have any question !
         </p>
         <a href="mailto:mateo.brc0@gmail.com">
           <Button

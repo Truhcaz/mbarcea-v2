@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="flex relative justify-center my-20 z-10">
           <div className="max-w-[80vw] flex flex-col items-center justify-center">
             <h3 className="uppercase tracking-widest text-gray-200">
-              Hi! I&apos;m Mateo,
+              Hi! I&apos;m Mateo.
             </h3>
 
             <TextGenerateEffect

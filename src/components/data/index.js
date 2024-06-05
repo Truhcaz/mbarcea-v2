@@ -9,7 +9,7 @@ export const projects = [
     {
         id: 1,
         title: "Brainwave",
-        des: "Showcase Website for Brainwave an open AI chat app.",
+        des: "Landing page for Brainwave an open AI chat app.",
         img: "covers/brainwave.png",
         iconLists: ["svg/vite.svg", "svg/react.svg", "svg/js.svg", "svg/tailwind.svg"],
         link: "https://truhcaz.github.io/brainwave/",
@@ -33,7 +33,7 @@ export const projects = [
     {
         id: 4,
         title: "Go To Egypt",
-        des: "Showcase Website for a travel agency in Egypt.",
+        des: "Landing page for a travel agency in Egypt.",
         img: "covers/gotoegypt.png",
         iconLists: ["svg/react.svg", "svg/css.svg", "svg/js.svg", "svg/framer.svg"],
         link: "https://truhcaz.github.io/gotoegypt/",

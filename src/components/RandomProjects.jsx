@@ -30,7 +30,7 @@ const RandomProjects = () => {
       <div className="py-20 w-full">
         <div className="flex justify-center lg:flex-row flex-col items-center gap-8">
           <h1 className="heading text-white">
-            Some <span className="text-red">random</span> projects
+            <span className="text-red">Random</span> projects
           </h1>
           <button
             className="text-red heading cursor-pointer"
